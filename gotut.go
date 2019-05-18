@@ -47,15 +47,13 @@ func add_handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
   //var a_car = car{gas_pedal: 123, brake_pedal: 0, steering_wheel: 123, top_speed_kmh: 23.3}
+/*
   a_car := car{gas_pedal: 123, brake_pedal: 0, steering_wheel: -123, top_speed_kmh: 45.56}
-
   fmt.Println(a_car.gas_pedal, a_car.top_speed_kmh, a_car.foo())
-
-  //a_car.new_top_speed(222)
+  a_car.new_top_speed(222)
   a_car = newer_top_speed(a_car, 222)
-
   fmt.Println(a_car.gas_pedal, a_car.top_speed_kmh, a_car.foo())
-
+*/
 
 
   http.HandleFunc("/", index_handler)
